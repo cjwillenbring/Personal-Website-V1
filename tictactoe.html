@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<style type="text/css">
+		table {
+			width: 240px;
+			height: 203px;
+		}
+		td {
+			height: 71px;
+			width: 70px;
+			text-align: center;
+			font-size: 23px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Play TicTacToe</h1>
+	<div id="turn" style="text-align: center; width: 240px;">X's Turn</div>
+	<table>
+		<tr>
+		    <td class="td" style="border-right: 3px solid black; border-bottom: 3px solid black;"></td>
+		    <td class="td" style="border-bottom: 3px solid black; border-right: 3px solid black; border-left: 3px solid black;"></td>
+		    <td class="td" style="border-left: 3px solid black; border-bottom: 3px solid black;"></td>
+		</tr>
+		<tr>
+		    <td class="td" style="border-right: 3px solid black; border-top: 3px solid black; border-bottom: 3px solid black;"></td>
+		    <td class="td" style="border: 3px solid black;"></td>
+		    <td class="td" style="border-left: 3px solid black; border-top: 3px solid black; border-bottom: 3px solid black;"></td>
+		</tr>
+		<tr>
+		    <td class="td" style="border-top: 3px solid black; border-right: 3px solid black;"></td>
+		    <td class="td" style="border-top: 3px solid black; border-left: 3px solid black; border-right: 3px solid black;"></td>
+		    <td class="td" style="border-top: 3px solid black; border-left: 3px solid black;"></td>
+		</tr>
+	</table>
+	<div style="width: 240px; text-align: center;"><button class="button" style="padding: 12px; margin: 5px; border: none; cursor: pointer;">Reset</button></div>
+	<script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src="script.js" type="text/javascript"></script>
+</body>
+</html>

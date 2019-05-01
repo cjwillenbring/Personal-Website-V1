@@ -1,0 +1,43 @@
+body {
+	margin: 10px;
+	padding: 0px;
+	font-family: arial;
+	background-color: #A15DD6;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 24px;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+	color: blue;
+}
+
+p {
+	font-family: courier;
+}
+
+img, iframe {
+	width: 500px;
+	height: 350px;
+	border: solid 2px black;
+	border-radius: 3px;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		text-align: center;
+		margin: 10px;
+	}
+	ul li {
+		list-style-type: none;
+		position: relative;
+		left: -20px;
+	}
+	img, iframe {
+		width: 400px;
+		height: 280px;
+	}
+}
